@@ -1,13 +1,14 @@
 #meh {
     text-align: center;
     font-size: 1.3rem;
-    text-shadow: 2px 2px rgb(158, 158, 158);
-
+    text-shadow: 1px 2px rgb(158, 158, 158);
+    padding: 3%;
+    background-color: rgb(225, 215, 76);
 }
 #ma {
     font-size: 1.1rem;
     display: flex;
-    flex-direction: row;
-    row-gap: 3px;
     
+
+
 }
