@@ -10,11 +10,18 @@
     text-shadow: 1px 2px rgb(158, 158, 158);
     padding: 3%;
     background-color: rgb(225, 215, 76);
+
 }
 #ma {
     font-size: 1.1rem;
     display: flex;
     
+}
+#wa {
+    width: 36rem;
+    height: auto;
 
-
+}
+a:hover {
+    color: crimson;
 }
