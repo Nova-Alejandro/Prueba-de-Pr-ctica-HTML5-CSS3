@@ -1,0 +1,13 @@
+#meh {
+    text-align: center;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px rgb(158, 158, 158);
+
+}
+#ma {
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: row;
+    row-gap: 3px;
+    
+}
