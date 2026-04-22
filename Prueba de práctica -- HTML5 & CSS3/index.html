@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Principal</title>
+    <title>Los Pollos Hermanos</title>
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="icon"
@@ -12,19 +12,114 @@
     />
   </head>
   <body>
-    <header id="meh">
-      <div>
-        <h1>Ejemplo de texto</h1>
-      </div>
-      <div id="ma">
+    <!-- ENCABEZADO -->
+    <header class="header">
+      <div class="container nav">
+        <h2 class="logo">Los pollos hermanos</h2>
         <nav>
-          <ul>
-            <a href=""></a>
+          <ul class="menu">
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#gallery">Nosotros</a></li>
+            <li><a href="#contact">Contacto</a></li>
           </ul>
         </nav>
       </div>
     </header>
-  </body>
-  jshdjkah
-</html>
 
+    <!-- HERO -->
+    <section class="hero">
+      <div class="overlay">
+        <h1>Una experiencia gastronómica única para ti y para tu familia</h1>
+        <p>
+          Sabores auténticos en un ambiente inolvidable, entretenido y acogedor
+        </p>
+        <a href="#menu" class="btn">Ver menú</a>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu" class="section">
+      <h2>Platos Destacados</h2>
+      <div class="cards">
+        <div class="card">
+          <img
+            src="https://img0.didiglobal.com/static/soda_public/img_17244e2c3de61d8ce44ce90340c8074f.jpg4_3"
+            alt=""
+          />
+          <h3>Hamburguesa</h3>
+          <p>$21.000</p>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://es.cravingsjournal.com/wp-content/uploads/2024/05/pollo-frito-pollos-hermanos-breaking-bad-4.jpg"
+            alt=""
+          />
+          <h3>Pollo frito con aros de cebolla</h3>
+          <p>$28.000</p>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://tolvasaypaasa.es/wp-content/uploads/2024/06/26-junio-pollo-de-los-pollos-hermanos_blog-1024x600-17.jpg"
+            alt=""
+          />
+          <h3>Cubeta de pollo</h3>
+          <p>$18.000</p>
+        </div>        
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section about">
+      <div class="about-content">
+        <div class="gallery">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwYRkBDCE54QPYzHvPiM246bNeUaH6ut2HHQ&sS"
+            class="imagen"
+          />
+          <img
+            src="https://static0.srcdn.com/wordpress/wp-content/uploads/2019/06/Breaking-Bad-Los-Pollos-Hermanos.jpg"
+            class="imagen"
+          />
+          <img
+            src="https://static0.moviewebimages.com/wordpress/wp-content/uploads/article/oIb6U0hc1gsXDG6Nbq8l3fvXAcir3K.jpg?w=1200&h=628&fit=crop"
+            class="imagen"
+          />
+          <img
+            src="https://images7.memedroid.com/images/UPLOADED312/63310a1b7ef72.jpeg"
+            class="imagen"
+          />
+        </div>
+        <div>
+          <h2>Sobre Nosotros</h2>
+          <p>
+            Somos un restaurante nacido del amor por la cocina tradicional y el
+            sabor auténtico del pollo asado. Nuestra historia comenzó como un
+            pequeño emprendimiento familiar, donde una receta secreta
+            —transmitida de generación en generación— reunía a vecinos y amigos
+            alrededor de la mesa. Con el tiempo, ese aroma irresistible y el
+            compromiso por la calidad nos permitieron crecer, sin perder nunca
+            nuestra esencia: ofrecer comidas hechas con dedicación, ingredientes
+            frescos y ese toque casero que hace sentir a todos como en casa. Hoy
+            seguimos cocinando con la misma pasión con la que empezamos,
+            llevando sabor y tradición a cada plato.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contact" class="section contact">
+      <h2>Visitanos</h2>
+      <p>Barranquilla, Colombia</p>
+      <p>📞 3184946267</p>
+      <p>📍 Calle 84 # 50 - 20</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>© 2026 Los Pollos Hermanos S.A.S</p>
+    </footer>
+  </body>
+</html>
